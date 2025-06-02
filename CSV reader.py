@@ -1,9 +1,9 @@
 import csv
 
-def process_csv(input_file, output_file):
+def process_csv(RD_RD_TBL_BI_SCIENCEATA_2025_10KUSER_SAMP_3_wmt.csv, output_file):
     processed_rows = []
 
-    with open(input_file, mode='r', newline='', encoding='utf-8') as csvfile:
+    with open(RD_RD_TBL_BI_SCIENCEATA_2025_10KUSER_SAMP_3_wmt.csv, mode='r', newline='', encoding='utf-8') as csvfile:
         reader = csv.reader(csvfile)
         headers = next(reader)
         processed_rows.append(headers)
@@ -31,6 +31,6 @@ def process_csv(input_file, output_file):
 
     print(f"Processed CSV saved as '{output_file}'")
 
-input_csv = 'input.csv'
+RD_RD_TBL_BI_SCIENCEATA_2025_10KUSER_SAMP_3_wmt.csv = 'input.csv'
 output_csv = 'output.csv'
-process_csv(input_csv, output_csv)
+process_csv(RD_RD_TBL_BI_SCIENCEATA_2025_10KUSER_SAMP_3_wmt.csv, output_csv)
