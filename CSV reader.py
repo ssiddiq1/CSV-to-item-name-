@@ -11,7 +11,7 @@ def process_csv(input_file, output_file):
         for row in reader:
             new_row = []
             for cell in row:
-                if 'Ip/' in cell:
+                if 'ip/' in cell:
                     # find start and end positions
                     start = cell.find('Ip/') + len('Ip/')
                     end = cell.find('/', start)
