@@ -1,0 +1,20 @@
+[
+  "length",
+  "num_hyphens",
+  "num_underscores",
+  "alpha_ratio",
+  "digit_ratio",
+  "token_count",
+  "avg_token_length",
+  "has_stopwords",
+  "non_alnum_ratio",
+  "ends_html",
+  "ends_php",
+  "ends_aspx",
+  "starts_digit",
+  "all_caps_ratio",
+  "camel_case_score",
+  "has_uuid_pattern",
+  "has_sku_pattern",
+  "entropy"
+]

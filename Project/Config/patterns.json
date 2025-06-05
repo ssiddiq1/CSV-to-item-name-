@@ -1,0 +1,105 @@
+{
+  "amazon.com": [
+    "amazon\\.com/([^/]+)/dp/[A-Z0-9]+",
+    "amazon\\.com/gp/product/[A-Z0-9]+/ref=[^/]+/([^/]+)",
+    "amazon\\.com/dp/[A-Z0-9]+/ref=[^/]+/keywords=([^/&]+)",
+    "amazon\\.com/([^/]+)/dp/[A-Z0-9]+/ref=[^/]+",
+    "amazon\\.com/gp/aw/d/[A-Z0-9]+/ref=[^/]+/([^/]+)"
+  ],
+  "amazon.co.uk": [
+    "amazon\\.co\\.uk/([^/]+)/dp/[A-Z0-9]+",
+    "amazon\\.co\\.uk/gp/product/[A-Z0-9]+/ref=[^/]+/([^/]+)",
+    "amazon\\.co\\.uk/dp/[A-Z0-9]+/ref=[^/]+/keywords=([^/&]+)"
+  ],
+  "walmart.com": [
+    "walmart\\.com/ip/([^/]+)/[0-9]+",
+    "walmart\\.com/browse/([^/]+)/[0-9]+_[0-9]+",
+    "walmart\\.com/search/\\?q=([^&]+)",
+    "walmart\\.com/ip/[^/]+/([^/]+)/[0-9]+"
+  ],
+  "target.com": [
+    "target\\.com/p/([^/]+)/-/A-[0-9]+",
+    "target\\.com/s\\?searchTerm=([^&]+)",
+    "target\\.com/p/([^/]+)/[0-9]+"
+  ],
+  "bestbuy.com": [
+    "bestbuy\\.com/site/([^/]+)/[0-9]+\\.p",
+    "bestbuy\\.com/site/searchpage\\.jsp\\?st=([^&]+)",
+    "bestbuy\\.com/site/([^/]+)/[0-9]+\\.p\\?skuId=[0-9]+"
+  ],
+  "ebay.com": [
+    "ebay\\.com/itm/([^/]+)/[0-9]+",
+    "ebay\\.com/itm/[0-9]+\\?.*&originalItemTitle=([^&]+)",
+    "ebay\\.com/sch/i\\.html\\?.*&_nkw=([^&]+)"
+  ],
+  "etsy.com": [
+    "etsy\\.com/listing/[0-9]+/([^?]+)",
+    "etsy\\.com/shop/[^/]+/([^?]+)",
+    "etsy\\.com/market/([^?/]+)"
+  ],
+  "homedepot.com": [
+    "homedepot\\.com/p/([^/]+)/[0-9]+",
+    "homedepot\\.com/p/[^/]+/([^/]+)/[0-9]+",
+    "homedepot\\.com/s/([^?]+)"
+  ],
+  "lowes.com": [
+    "lowes\\.com/pd/([^/]+)/[0-9]+",
+    "lowes\\.com/pd/[^/]+/([^/]+)/[0-9]+",
+    "lowes\\.com/search\\?searchTerm=([^&]+)"
+  ],
+  "wayfair.com": [
+    "wayfair\\.com/[^/]+/pdp/([^/]+)-[a-z0-9]+\\.html",
+    "wayfair\\.com/keyword\\.php\\?keyword=([^&]+)",
+    "wayfair\\.com/[^/]+/sb0/([^/]+)\\.html"
+  ],
+  "aliexpress.com": [
+    "aliexpress\\.com/item/([^/]+)/[0-9]+\\.html",
+    "aliexpress\\.com/item/[0-9]+\\.html\\?.*&title=([^&]+)",
+    "aliexpress\\.com/w/wholesale-([^.]+)\\.html"
+  ],
+  "newegg.com": [
+    "newegg\\.com/([^/]+)/p/[A-Z0-9]+",
+    "newegg\\.com/p/[A-Z0-9]+\\?.*&Description=([^&]+)",
+    "newegg\\.com/d/Special/ShellShocker/[0-9]+/([^/]+)"
+  ],
+  "costco.com": [
+    "costco\\.com/([^/]+)\\.product\\.[0-9]+\\.html",
+    "costco\\.com/s\\?keyword=([^&]+)",
+    "costco\\.com/([^/]+)\\.product\\.[0-9]+\\.html\\?.*"
+  ],
+  "overstock.com": [
+    "overstock\\.com/[^/]+/([^/]+)/[0-9]+/product\\.html",
+    "overstock\\.com/search\\?keywords=([^&]+)",
+    "overstock\\.com/[0-9]+/product\\.html\\?keywords=([^&]+)"
+  ],
+  "sephora.com": [
+    "sephora\\.com/product/([^/]+)-P[0-9]+",
+    "sephora\\.com/product/[^/]+/([^/]+)\\?skuId=[0-9]+",
+    "sephora\\.com/search\\?keyword=([^&]+)"
+  ],
+  "ikea.com": [
+    "ikea\\.com/[a-z]+/[a-z]+/p/([^/]+)-[0-9]+",
+    "ikea\\.com/[a-z]+/[a-z]+/p/([^/]+)-art-[0-9]+",
+    "ikea\\.com/[a-z]+/[a-z]+/cat/([^/]+)-[0-9]+"
+  ],
+  "macys.com": [
+    "macys\\.com/shop/product/([^?]+)\\?ID=[0-9]+",
+    "macys\\.com/shop/[^/]+/([^?]+)\\?ID=[0-9]+",
+    "macys\\.com/shop/search\\?keyword=([^&]+)"
+  ],
+  "nordstrom.com": [
+    "nordstrom\\.com/s/([^/]+)/[0-9]+",
+    "nordstrom\\.com/s/[0-9]+\\?origin=keywordsearch.*&keyword=([^&]+)",
+    "nordstrom\\.com/browse/search\\?keyword=([^&]+)"
+  ],
+  "zappos.com": [
+    "zappos\\.com/p/([^/]+)/product/[0-9]+",
+    "zappos\\.com/([^/]+)/product/[0-9]+/color/[0-9]+",
+    "zappos\\.com/search/([^/]+)/filter"
+  ],
+  "shopify.com": [
+    "[^/]+\\.myshopify\\.com/products/([^?]+)",
+    "[^/]+\\.myshopify\\.com/collections/[^/]+/products/([^?]+)",
+    "[^/]+\\.myshopify\\.com/search\\?q=([^&]+)"
+  ]
+}
